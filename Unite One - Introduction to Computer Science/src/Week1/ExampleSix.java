@@ -20,9 +20,23 @@ public class ExampleSix {
     x++; // x += 1 and x = x + 1
     y--; // y -= 1 and y = y - 1
 
+
+    int s = 5;
+    s++;
+    ++s;
+    s--;
+    --s;
+
+    int g = 3;
+    int f = 3;
+
+    int test1 = 2 * g++;
+    int test2 = 2 * ++f;
+
+
   }
 }
 
     
     
-}
+
